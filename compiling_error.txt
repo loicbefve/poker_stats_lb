@@ -1,0 +1,3 @@
+In file included from /media/loic/Data/Users/Loïc/Documents/poker_stats_lb/main.cpp:3:0:
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/./Grammar/HistoryFileGrammarLexer.h:7:28: fatal error: antlr4-runtime.h: Aucun fichier ou dossier de ce type
+compilation terminated.
