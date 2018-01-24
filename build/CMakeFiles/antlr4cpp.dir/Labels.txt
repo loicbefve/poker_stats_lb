@@ -1,0 +1,13 @@
+# Target labels
+ antlr4cpp
+# Source files and their labels
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/CMakeFiles/antlr4cpp
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/CMakeFiles/antlr4cpp.rule
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/CMakeFiles/antlr4cpp-complete.rule
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-install.rule
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-mkdir.rule
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-download.rule
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-update.rule
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-patch.rule
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-configure.rule
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-build.rule

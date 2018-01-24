@@ -1,0 +1,22 @@
+In file included from /media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/atn/ParserATNSimulator.cpp:35:0:
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/atn/ParserATNSimulator.h: In constructor ‘antlr4::atn::ParserATNSimulator::ParserATNSimulator(antlr4::Parser*, const antlr4::atn::ATN&, std::vector<antlr4::dfa::DFA>&, antlr4::atn::PredictionContextCache&)’:
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/atn/ParserATNSimulator.h:371:19: warning: ‘antlr4::atn::ParserATNSimulator::parser’ will be initialized after [-Wreorder]
+     Parser *const parser;
+                   ^
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/atn/ParserATNSimulator.h:260:28: warning:   ‘std::vector<antlr4::dfa::DFA>& antlr4::atn::ParserATNSimulator::decisionToDFA’ [-Wreorder]
+     std::vector<dfa::DFA> &decisionToDFA;
+                            ^
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/atn/ParserATNSimulator.cpp:54:1: warning:   when initialized here [-Wreorder]
+ ParserATNSimulator::ParserATNSimulator(Parser *parser, const ATN &atn, std::vector<dfa::DFA> &decisionToDFA,
+ ^
+In file included from /media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/atn/ParserATNSimulator.cpp:35:0:
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/atn/ParserATNSimulator.h: In constructor ‘antlr4::atn::ParserATNSimulator::ParserATNSimulator(antlr4::Parser*, const antlr4::atn::ATN&, std::vector<antlr4::dfa::DFA>&, antlr4::atn::PredictionContextCache&)’:
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/atn/ParserATNSimulator.h:371:19: warning: ‘antlr4::atn::ParserATNSimulator::parser’ will be initialized after [-Wreorder]
+     Parser *const parser;
+                   ^
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/atn/ParserATNSimulator.h:260:28: warning:   ‘std::vector<antlr4::dfa::DFA>& antlr4::atn::ParserATNSimulator::decisionToDFA’ [-Wreorder]
+     std::vector<dfa::DFA> &decisionToDFA;
+                            ^
+/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp/runtime/Cpp/runtime/src/atn/ParserATNSimulator.cpp:54:1: warning:   when initialized here [-Wreorder]
+ ParserATNSimulator::ParserATNSimulator(Parser *parser, const ATN &atn, std::vector<dfa::DFA> &decisionToDFA,
+ ^

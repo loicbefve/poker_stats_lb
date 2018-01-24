@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/CMakeFiles/antlr4cpp"
+		},
+		{
+			"file" : "/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/CMakeFiles/antlr4cpp.rule"
+		},
+		{
+			"file" : "/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/CMakeFiles/antlr4cpp-complete.rule"
+		},
+		{
+			"file" : "/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-install.rule"
+		},
+		{
+			"file" : "/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-mkdir.rule"
+		},
+		{
+			"file" : "/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-download.rule"
+		},
+		{
+			"file" : "/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-update.rule"
+		},
+		{
+			"file" : "/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-patch.rule"
+		},
+		{
+			"file" : "/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-configure.rule"
+		},
+		{
+			"file" : "/media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build/externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"antlr4cpp"
+		],
+		"name" : "antlr4cpp"
+	}
+}
