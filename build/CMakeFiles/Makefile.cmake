@@ -13,7 +13,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.5.1/CMakeSystem.cmake"
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
-  "../runtime/CMakeLists.txt"
+  "externals/antlr4cpp/tmp/antlr4cpp-cfgcmd.txt.in"
+  "../cmake/ExternalAntlr4Cpp.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.5/Modules/CMakeCInformation.cmake"
@@ -30,6 +31,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.5/Modules/CMakeDetermineCompilerId.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeDetermineSystem.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeFindBinUtils.cmake"
+  "/usr/share/cmake-3.5/Modules/CMakeFindJavaCommon.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeLanguageInformation.cmake"
   "/usr/share/cmake-3.5/Modules/CMakeParseArguments.cmake"
@@ -84,9 +86,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.5/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-3.5/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/usr/share/cmake-3.5/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+  "/usr/share/cmake-3.5/Modules/ExternalProject.cmake"
+  "/usr/share/cmake-3.5/Modules/FindGit.cmake"
+  "/usr/share/cmake-3.5/Modules/FindJava.cmake"
   "/usr/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.5/Modules/FindPackageMessage.cmake"
-  "/usr/share/cmake-3.5/Modules/FindPkgConfig.cmake"
   "/usr/share/cmake-3.5/Modules/Internal/FeatureTesting.cmake"
   "/usr/share/cmake-3.5/Modules/MultiArchCross.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/Linux-CXX.cmake"
@@ -95,6 +99,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.5/Modules/Platform/Linux-GNU.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/Linux.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/UnixPaths.cmake"
+  "/usr/share/cmake-3.5/Modules/RepositoryInfo.txt.in"
   )
 
 # The corresponding makefile is:
@@ -110,13 +115,17 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
+  "externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-gitinfo.txt"
+  "externals/antlr4cpp/tmp/antlr4cpp-cfgcmd.txt"
+  "externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-download-.cmake"
+  "externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-configure-.cmake"
+  "externals/antlr4cpp/src/antlr4cpp-stamp/antlr4cpp-build-.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "runtime/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "runtime/CMakeFiles/antlr4_shared.dir/DependInfo.cmake"
-  "runtime/CMakeFiles/antlr4_static.dir/DependInfo.cmake"
-  "runtime/CMakeFiles/make_lib_output_dir.dir/DependInfo.cmake"
+  "CMakeFiles/antlr4cpp.dir/DependInfo.cmake"
+  "CMakeFiles/demo.dir/DependInfo.cmake"
+  "CMakeFiles/antlr4cpp_generation_antlrcpptest.dir/DependInfo.cmake"
   )

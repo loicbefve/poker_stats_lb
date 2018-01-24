@@ -56,49 +56,16 @@ CMAKE_BINARY_DIR = /media/loic/Data/Users/Loïc/Documents/poker_stats_lb/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
 
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"dev\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: install/local
-
-.PHONY : install/local/fast
+.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -110,17 +77,6 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -155,43 +111,70 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named antlr4_shared
+# Target rules for targets named antlr4cpp
 
 # Build rule for target.
-antlr4_shared: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 antlr4_shared
-.PHONY : antlr4_shared
+antlr4cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 antlr4cpp
+.PHONY : antlr4cpp
 
 # fast build rule for target.
-antlr4_shared/fast:
-	$(MAKE) -f runtime/CMakeFiles/antlr4_shared.dir/build.make runtime/CMakeFiles/antlr4_shared.dir/build
-.PHONY : antlr4_shared/fast
+antlr4cpp/fast:
+	$(MAKE) -f CMakeFiles/antlr4cpp.dir/build.make CMakeFiles/antlr4cpp.dir/build
+.PHONY : antlr4cpp/fast
 
 #=============================================================================
-# Target rules for targets named antlr4_static
+# Target rules for targets named demo
 
 # Build rule for target.
-antlr4_static: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 antlr4_static
-.PHONY : antlr4_static
+demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo
+.PHONY : demo
 
 # fast build rule for target.
-antlr4_static/fast:
-	$(MAKE) -f runtime/CMakeFiles/antlr4_static.dir/build.make runtime/CMakeFiles/antlr4_static.dir/build
-.PHONY : antlr4_static/fast
+demo/fast:
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
+.PHONY : demo/fast
 
 #=============================================================================
-# Target rules for targets named make_lib_output_dir
+# Target rules for targets named antlr4cpp_generation_antlrcpptest
 
 # Build rule for target.
-make_lib_output_dir: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 make_lib_output_dir
-.PHONY : make_lib_output_dir
+antlr4cpp_generation_antlrcpptest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 antlr4cpp_generation_antlrcpptest
+.PHONY : antlr4cpp_generation_antlrcpptest
 
 # fast build rule for target.
-make_lib_output_dir/fast:
-	$(MAKE) -f runtime/CMakeFiles/make_lib_output_dir.dir/build.make runtime/CMakeFiles/make_lib_output_dir.dir/build
-.PHONY : make_lib_output_dir/fast
+antlr4cpp_generation_antlrcpptest/fast:
+	$(MAKE) -f CMakeFiles/antlr4cpp_generation_antlrcpptest.dir/build.make CMakeFiles/antlr4cpp_generation_antlrcpptest.dir/build
+.PHONY : antlr4cpp_generation_antlrcpptest/fast
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -199,15 +182,14 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install"
-	@echo "... list_install_components"
-	@echo "... install/strip"
-	@echo "... install/local"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... antlr4_shared"
-	@echo "... antlr4_static"
-	@echo "... make_lib_output_dir"
+	@echo "... antlr4cpp"
+	@echo "... demo"
+	@echo "... antlr4cpp_generation_antlrcpptest"
+	@echo "... rebuild_cache"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
